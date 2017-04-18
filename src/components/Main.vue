@@ -45,7 +45,7 @@
         fn(randomNum)
       },
       getRandomSurah () {
-        this.answerShown = false
+        this.isAnswerShown = false
 
         // Get random surah number
         this.getRandom(this.minSurah, this.maxSurah, randomNumber => {
